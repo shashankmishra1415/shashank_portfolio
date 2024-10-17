@@ -20,7 +20,7 @@ const App = () => {
         <Technologies />
         <Projects />
         <Experience />
-        <Certificate/>
+        <Certificate />
         <Contact />
       </div>
     </div>

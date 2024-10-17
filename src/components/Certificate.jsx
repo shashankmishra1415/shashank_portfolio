@@ -1,7 +1,7 @@
 import { CERTIFICATE } from "../constants"
 import { motion } from "framer-motion"
 
-const projects = () => {
+const Certificate = () => {
     return (
         <div className="pb-4">
             <motion.h2
