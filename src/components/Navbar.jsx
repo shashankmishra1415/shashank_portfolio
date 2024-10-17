@@ -1,5 +1,6 @@
 
-import { FaGithub, FaLinkedin, TbBrandLeetcode } from "react-icons/fa"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { SiLeetcode } from "react-icons/si";
 import { SiCredly } from "react-icons/si";
 import logo from "../assets/raviKumarLogo.webp"
 import React from 'react'
@@ -22,7 +23,7 @@ const Navbar = () => {
                 <FaGithub />
             </a>
             <a href="https://leetcode.com/u/shashankmishra1415/" target="_blank" rel="noopener noreferrer" aria-label="Leetcode">
-                <TbBrandLeetcode />
+                <SiLeetcode />
             </a>
             {/* <a href="https://www.instagram.com/shashank_mishra19/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram />
