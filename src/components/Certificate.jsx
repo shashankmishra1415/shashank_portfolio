@@ -29,7 +29,7 @@ const Certificate = () => {
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4">
-                            <h3 className="mb-2 font-semibold text-2xl">{project.name}</h3>
+                            <h3 className="mb-2 font-semibold text-2xl">{certificate.name}</h3>
                             {/* <p className="mb-4 text-stone-400">
                                 {project.description}
                             </p> */}
