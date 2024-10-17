@@ -3,8 +3,8 @@ import Hero from "./components/Hero"
 import Technologies from "./components/Technologies"
 import Projects from "./components/projects"
 import Experience from "./components/Experience"
-import Contact from "./components/Contact"
 import Certificate from "./components/Certificate"
+import Contact from "./components/Contact"
 
 const App = () => {
   return (

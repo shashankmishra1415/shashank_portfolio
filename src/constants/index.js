@@ -67,7 +67,7 @@ export const CERTIFICATE = [
     issueYear: "Sep 2021",
     name: "Full Stack Web Development (Internship)",
     company: "Tequed Labs",
-    image:"project3",
+    image: project3,
   },
 ];
 
