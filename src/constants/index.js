@@ -9,22 +9,21 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Current",
+    year: "2023 - Present",
     role: "Associate Software Developer",
     company: "Mind IT Systems",
     description: `Developed and Deployed high-performance, cross-platform, scalable web apps for clients with Dotnet and Angular. Implemented RESTful APIs with Dotnet and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Angular","MySQL","JavaScript","Dotnet","C#"],
-    certLink:"https://minditsystems.com/"
+    certLink:""
   },
-  // {
-  //   year: "Apr 2022 - May 2022",
-  //   role: "CS Internship",
-  //   company: "Virtually Testing Foundation",
-  //   description: `Two months cohort based internship based on cybersecurity(Level-1)`,
-  //   technologies: ["Mitre","Authentication", " Cyber security"],
-  //   certLink:"https://verification.givemycertificate.com/v/b6586322-aa69-4e47-a1ab-12a11898c8a6"
-
-  // },
+  {
+    year: "Aug 2021 - Sep 2021",
+    role: "Full Stact Web Development (Internship)",
+    company: "Tequed Labs",
+    description: `Design and development of a user-friendly tutorial website, encompassing a homepage, an informative header section, a comprehensive catalog of offered courses, and seamless contact functionality`,
+    technologies: ["HTML5", "CSS3", "JavaScript", "MySQL"],
+    certLink:""
+  },
 ];
 
 export const PROJECTS = [
@@ -32,7 +31,7 @@ export const PROJECTS = [
     title: "Sujata Product Strategy",
     image: project1,
     description:
-    "Sujata is a web application that manages the products such as home appliances at multiple levels. The platform will centralizeproduct cost, labour cost management and generates balance sheet for the user.",
+    "Sujata is a web application that manages the products such as home appliances at multiple levels. The platform will centralize product cost, labour cost management and generates balance sheet for the user.",
     technologies: ["Angular", "TypeScript"],
   },
   {
@@ -40,10 +39,10 @@ export const PROJECTS = [
     image: project2,
     description:
     "Inventory Management System is an application which manages Inventory of product, creates barcode for each product, generates excel report of sales.",
-    technologies: ["REST APIs", "Dotnet", "MySql"],
+    technologies: ["REST APIs", ".Net", "MySql"],
   },
   {
-    title: "Human resource management system (HRX)",
+    title: "Human Resource Management System (HRX)",
     image: project4,
     description:
     "HRX is a web application used to maintaining the HR Operations like attendance regularization, leaves and work schedule management of an employee.",
@@ -52,7 +51,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Sector 3, Haryana, India ",
-  phoneNo: "+91-9599866160 ",
+  address: "Sector 3, Faridabad, Haryana - 121004, India",
+  phoneNo: "+91-9599866160",
   email: "shashankmishra1415@gmail.com",
 };
