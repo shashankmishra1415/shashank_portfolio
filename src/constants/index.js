@@ -9,11 +9,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2023 - Current",
     role: "Associate Software Developer",
     company: "Mind IT Systems",
     description: `Developed and Deployed high-performance, cross-platform, scalable web apps for clients with Dotnet and Angular. Implemented RESTful APIs with Dotnet and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Dotnet", "Angular","MySQL" ,"Deployment"],
+    technologies: ["Angular","MySQL","JavaScript","TypeScript","Dotnet","C#"],
     certLink:"https://minditsystems.com/"
   },
   // {
@@ -40,10 +40,10 @@ export const PROJECTS = [
     image: project2,
     description:
     "Inventory Management System is an application which manages Inventory of product, creates barcode for each product, generates excel report of sales.",
-    technologies: ["REST APIs", "Dotnet"],
+    technologies: ["REST APIs", "Dotnet", "MySql"],
   },
   {
-    title: "HRX",
+    title: "Human resource management system (HRX)",
     image: project3,
     description:
     "HRX is a web application used to maintaining the HR Operations like attendance regularization, leaves and work schedule management of an employee.",
