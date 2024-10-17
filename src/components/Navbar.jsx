@@ -21,9 +21,12 @@ const Navbar = () => {
             <a href="https://github.com/shashankmishra1415" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <FaGithub />
             </a>
-            <a href="https://www.instagram.com/shashank_mishra19/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <FaInstagram />
+            <a href="https://leetcode.com/u/shashankmishra1415/" target="_blank" rel="noopener noreferrer" aria-label="Leetcode">
+                <TbBrandLeetcode />
             </a>
+            {/* <a href="https://www.instagram.com/shashank_mishra19/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <FaInstagram />
+            </a> */}
         </div>
     </nav>
   )

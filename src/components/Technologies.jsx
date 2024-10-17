@@ -1,19 +1,16 @@
 import React from 'react'
 import { SiDjango } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
-import { FaPython } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { SiAndroidstudio } from "react-icons/si";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaGit } from "react-icons/fa";
 import {animate, motion} from "framer-motion";
 import { FaAngular } from "react-icons/fa";
 import { AiOutlineDotNet } from "react-icons/ai";
 import { SiMysql } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
-import { SiCsswizardry } from "react-icons/si";
-import { TiHtml5 } from "react-icons/ti";
+import { BiLogoTypescript } from "react-icons/bi";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa6";
+import { SiCsharp } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: {y: -10},
@@ -61,6 +58,20 @@ const Technologies = () => {
         animate="animate"
         variants={iconVariants(5)}
          className='p-4'>
+          <SiCsharp className='text-7xl text-cyan-500' />
+        </motion.div>
+        <motion.div
+        initial="initial"
+        animate="animate"
+        variants={iconVariants(5)}
+         className='p-4'>
+          <FaJava className='text-7xl text-cyan-500' />
+        </motion.div>
+        <motion.div
+        initial="initial"
+        animate="animate"
+        variants={iconVariants(5)}
+         className='p-4'>
           <SiMysql className='text-7xl text-cyan-500' />
         </motion.div>
         <motion.div
@@ -75,17 +86,28 @@ const Technologies = () => {
         animate="animate"
         variants={iconVariants(6)}
          className='p-4'>
-          <TiHtml5 className="text-7xl text-white-700" />
+          <FaHtml5 className="text-7xl text-white-700" />
         </motion.div>
-        <div className='p-4'>
-          <SiCsswizardry className="text-7xl text-grey-700" />
-        </div>
+        <motion.div
+        initial="initial"
+        animate="animate"
+        variants={iconVariants(6)}
+         className='p-4'>
+          <FaCss3Alt className="text-7xl text-white-700" />
+        </motion.div>
         <motion.div
         initial="initial"
         animate="animate"
         variants={iconVariants(4)}
          className='p-4'>
-          <SiTypescript className="text-7xl text-700" />
+          <BiLogoTypescript className="text-7xl text-700" />
+        </motion.div>
+        <motion.div
+        initial="initial"
+        animate="animate"
+        variants={iconVariants(4)}
+         className='p-4'>
+          <FaGit className="text-7xl text-700" />
         </motion.div>
       </motion.div>
     </div>
