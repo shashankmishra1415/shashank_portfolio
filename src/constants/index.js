@@ -55,13 +55,13 @@ export const CERTIFICATE = [
     issueYear: "Sep 2021",
     name: "Java with DSA and System Design",
     company: "Physics Wallah",
-    image:"project3",
+    image: project3,
   },
   {
     issueYear: "Sep 2021",
     name: "Java Full Stack",
     company: "Pentagon Space",
-    image:"project3",
+    image: project3,
   },
   {
     issueYear: "Sep 2021",
