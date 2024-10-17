@@ -44,7 +44,7 @@ export const PROJECTS = [
   },
   {
     title: "Human resource management system (HRX)",
-    image: hrx,
+    image: project4,
     description:
     "HRX is a web application used to maintaining the HR Operations like attendance regularization, leaves and work schedule management of an employee.",
     technologies: [".Net Core", "Angular", "TypeScript"],
