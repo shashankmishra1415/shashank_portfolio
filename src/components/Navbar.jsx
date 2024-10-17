@@ -1,5 +1,5 @@
 
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, TbBrandLeetcode } from "react-icons/fa"
 import { SiCredly } from "react-icons/si";
 import logo from "../assets/raviKumarLogo.webp"
 import React from 'react'
