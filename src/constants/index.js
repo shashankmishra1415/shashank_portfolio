@@ -50,6 +50,27 @@ export const PROJECTS = [
   },
 ];
 
+export const CERTIFICATE = [
+  {
+    issueYear: "Sep 2021",
+    name: "Java with DSA and System Design",
+    company: "Physics Wallah",
+    image:"project3",
+  },
+  {
+    issueYear: "Sep 2021",
+    name: "Java Full Stack",
+    company: "Pentagon Space",
+    image:"project3",
+  },
+  {
+    issueYear: "Sep 2021",
+    name: "Full Stack Web Development (Internship)",
+    company: "Tequed Labs",
+    image:"project3",
+  },
+];
+
 export const CONTACT = {
   address: "Sector 3, Faridabad, Haryana - 121004, India",
   phoneNo: "+91-9599866160",
