@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/rx1.jpg";
 import project3 from "../assets/projects/ims1.jpg";
 import project4 from "../assets/projects/project-4.webp";
+import PentaCer from "../assets/projects/PentaCer.webp";
+import TequedCer from "../assets/projects/TequedCer.webp";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable Web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like Angular, as well as back-end technologies like Dotnet. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -61,13 +63,13 @@ export const CERTIFICATE = [
     issueYear: "Sep 2021",
     name: "Java Full Stack",
     company: "Pentagon Space",
-    image: project3
+    image: PentaCer
   },
   {
     issueYear: "Sep 2021",
     name: "Full Stack Web Development (Internship)",
     company: "Tequed Labs",
-    image: project3
+    image: TequedCer
   },
 ];
 
