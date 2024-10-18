@@ -1,6 +1,7 @@
 import profilePic from "../assets/ProfileImage.jpg"
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
+import { FaDownload } from "react-icons/fa";
 
 const containerVariants = {
     hidden: {
@@ -59,6 +60,7 @@ const Hero = () => {
                 download
                 className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
                 >
+                    <FaDownload />
                     Download Resume
                 </motion.a>
             </motion.div>
