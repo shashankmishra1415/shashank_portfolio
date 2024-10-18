@@ -32,6 +32,7 @@ const Technologies = () => {
       whileInView={{opacity:1,y:0}}
       initial={{opacity:0, y: -100}}
       transition={{duration:1.5}}
+      style={{ color: '#FFD700' }}
       className='my-20 text-center text-4xl'>Technologies
       </motion.h2>
       <motion.div

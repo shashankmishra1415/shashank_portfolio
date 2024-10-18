@@ -8,6 +8,7 @@ const Contact = () => {
         whileInView={{opacity:1,y:0}}
         initial={{opacity:1,y:-100}}
         transition={{duration:0.5}}
+        style={{ color: '#FFD700' }}
          className="my-20 text-center text-4xl">Contact Me
          </motion.h2>
         <div className="text-center tracking-tighter">
