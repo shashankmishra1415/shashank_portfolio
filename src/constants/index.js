@@ -33,22 +33,19 @@ export const PROJECTS = [
   {
     title: "Sujata Product Strategy",
     image: project1,
-    description:
-    "Sujata is a web application that manages the products such as home appliances at multiple levels. The platform will centralize product cost, labour cost management and generates balance sheet for the user.",
+    description: "Sujata is a web application that manages the products such as home appliances at multiple levels. The platform will centralize product cost, labour cost management and generates balance sheet for the user.",
     technologies: ["Angular", "TypeScript"],
   },
   {
     title: "Inventory Management System",
     image: project2,
-    description:
-    "Inventory Management System is an application which manages Inventory of product, creates barcode for each product, generates excel report of sales.",
+    description: "Inventory Management System is an application which manages Inventory of product, creates barcode for each product, generates excel report of sales.",
     technologies: ["REST APIs", ".Net Core", "MySql"],
   },
   {
     title: "Human Resource Management System (HRX)",
     image: project4,
-    description:
-    "HRX is a web application used to maintaining the HR Operations like attendance regularization, leaves and work schedule management of an employee.",
+    description: "HRX is a web application used to maintaining the HR Operations like attendance regularization, leaves and work schedule management of an employee.",
     technologies: [".Net Core", "Angular", "TypeScript"],
   },
 ];
