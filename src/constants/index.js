@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     role: "Associate Software Developer",
     company: "Mind IT Systems",
     description: `Developed and Deployed high-performance, cross-platform, scalable web apps for clients with Dotnet and Angular. Implemented RESTful APIs with Dotnet and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Angular","MySQL","JavaScript","Dotnet","C#"],
+    technologies: ["Angular","MySQL","JavaScript",".Net Core","C#"],
     certLink:""
   },
   {
@@ -42,7 +42,7 @@ export const PROJECTS = [
     image: project2,
     description:
     "Inventory Management System is an application which manages Inventory of product, creates barcode for each product, generates excel report of sales.",
-    technologies: ["REST APIs", ".Net", "MySql"],
+    technologies: ["REST APIs", ".Net Core", "MySql"],
   },
   {
     title: "Human Resource Management System (HRX)",
@@ -55,27 +55,30 @@ export const PROJECTS = [
 
 export const CERTIFICATE = [
   {
-    issueYear: "Sep 2021",
+    issueYear: "",
     name: "Java with DSA and System Design",
     company: "Physics Wallah",
-    image: PWCer
+    image: PWCer,
+    technologies: ["Java"],
   },
   {
-    issueYear: "Sep 2021",
+    issueYear: "",
     name: "Java Full Stack",
     company: "Pentagon Space",
-    image: PentaCer
+    image: PentaCer,
+    technologies: ["Java","MySQL","Web Technologies"],
   },
   {
-    issueYear: "Sep 2021",
-    name: "Full Stack Web Development (Internship)",
+    issueYear: "",
+    name: "Full Stack Web Development",
     company: "Tequed Labs",
-    image: TequedCer
+    image: TequedCer,
+    technologies: ["HTML5","CSS3", "JavaScript","MySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "Sector 3, Faridabad, Haryana - 121004, India",
+  address: "Faridabad, Haryana - 121004, India",
   phoneNo: "+91-9599866160",
   email: "shashankmishra1415@gmail.com",
 };
