@@ -64,16 +64,16 @@ export const CERTIFICATE = [
   {
     issueYear: "",
     name: "Java Full Stack",
-    company: "Pentagon Space",
+    company: "Pentagon Space (Bangalore)",
     image: PentaCer,
     technologies: ["Java","MySQL","Web Technologies"],
   },
   {
     issueYear: "",
     name: "Full Stack Web Development",
-    company: "Tequed Labs",
+    company: "Tequed Labs (Bangalore)",
     image: TequedCer,
-    technologies: ["HTML5","CSS3", "JavaScript","MySQL"],
+    technologies: ["HTML5","CSS3","JavaScript","MySQL"],
   },
 ];
 
