@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/rx1.jpg";
 import project3 from "../assets/projects/ims1.jpg";
 import project4 from "../assets/projects/project-4.webp";
+import PWCer from "../assets/projects/PWCer.webp";
 import PentaCer from "../assets/projects/PentaCer.webp";
 import TequedCer from "../assets/projects/TequedCer.webp";
 
@@ -57,7 +58,7 @@ export const CERTIFICATE = [
     issueYear: "Sep 2021",
     name: "Java with DSA and System Design",
     company: "Physics Wallah",
-    image: project3
+    image: PWCer
   },
   {
     issueYear: "Sep 2021",
