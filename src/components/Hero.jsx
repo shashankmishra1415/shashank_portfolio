@@ -41,7 +41,7 @@ const Hero = () => {
             className="flex flex-col items-center lg:items-start m-10">
                 <motion.h2
                 variants={childVariants}
-                 className="pb-2 text-4xl tracking-lighter lg:text=8xl">Shashank Mishra
+                 className="pb-2 text-6xl tracking-lighter lg:text=8xl">SHASHANK MISHRA
                  </motion.h2>
                 <motion.span
                 variants={childVariants}
