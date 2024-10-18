@@ -58,9 +58,10 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+                className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 flex items-center gap-2"
                 >
-                    <FaDownload /> Download Resume
+                <FaDownload /> 
+                Download Resume
                 </motion.a>
             </motion.div>
             </div>
