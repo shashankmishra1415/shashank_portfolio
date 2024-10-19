@@ -8,3 +8,12 @@
   font-family: "Inter", sans-serif;
   background: #000000;
 }
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
