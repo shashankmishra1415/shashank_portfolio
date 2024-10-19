@@ -34,9 +34,9 @@ const Contact = () => {
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}
         className="my-4">
-       <a href={`mailto:${CONTACT.email}`} className="flex items-center border-b">
+         <a href={`mailto:${CONTACT.email}`} className="flex items-center justify-start border-b">
           <AiOutlineMail className="text-xl mr-2" /> {/* Email icon */}
-          {CONTACT.email}
+          <span className="text-left">{CONTACT.email}</span> {/* Text aligned to left */}
         </a>
       </motion.p>
       </div>
