@@ -9,7 +9,7 @@ const Certificate = () => {
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
                 style={{ color: '#FFD700' }}
-                className="my-20 text-center text-4xl">CERTIFICATIONS</motion.h2>
+                className="my-20 text-center text-4xl">Certificates</motion.h2>
             <div>
                 {CERTIFICATE.map((certificate, index) => (
                     <div key={index} className="mb-8 flex flex-wrap
