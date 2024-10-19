@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     role: "Associate Software Developer",
     company: "Mind IT Systems",
     description: `Developed and Deployed high-performance, cross-platform, scalable web apps for clients with Dotnet and Angular. Implemented RESTful APIs with Dotnet and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Angular","MySQL","JavaScript",".Net Core","C#"],
+    technologies: ["Angular",".Net Core","JavaScript","MySQL","C#"],
     certLink:""
   },
   {
