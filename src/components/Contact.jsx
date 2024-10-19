@@ -26,12 +26,12 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4">
           <a href={`tel:${CONTACT.phoneNo}`} className="border-b">
-          <AiOutlinePhone className="mr-2 text-xl" />
+          <AiOutlinePhone />
             {CONTACT.phoneNo}
           </a>
         </motion.p>
         <a href={`mailto:${CONTACT.email}`} className="border-b">
-        <AiOutlineMail className="mr-2 text-xl" />
+        <AiOutlineMail />
           {CONTACT.email}
         </a>
       </div>
