@@ -35,8 +35,7 @@ const Contact = () => {
         transition={{ duration: 1 }}
         className="my-4">
         <a href={`mailto:${CONTACT.email}`} className="border-b">
-          <AiOutlineMail className="text-xl mr-2" /> {/* Email icon */}
-          {CONTACT.email}
+          <AiOutlineMail className="text-xl mr-2" /> {CONTACT.email}   
         </a>
       </motion.p>
       </div>
