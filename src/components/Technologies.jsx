@@ -12,6 +12,7 @@ import { FaHtml5 } from "react-icons/fa6";
 import { SiCsharp } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
+import { FaGitSquare } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -131,7 +132,7 @@ const Technologies = () => {
           variants={iconVariants(4)}
           className="p-4"
         >
-          <FaGit className="text-7xl" style={{ color: "#F05032" }} />
+          <FaGitSquare className="text-7xl" style={{ color: "#F05032" }} />
         </motion.div>
       </motion.div>
     </div>
