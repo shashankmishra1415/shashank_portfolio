@@ -58,7 +58,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="bg-gold rounded-full p-4 text-sm text-stone-800 mb-10 flex items-center gap-2"
+                className="bg-white border-2 border-yellow-500 rounded-full p-4 text-sm text-stone-800 mb-10 flex items-center gap-2"
                 >
                 <FaDownload /> 
                 Download Resume         
