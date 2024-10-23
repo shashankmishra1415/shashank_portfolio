@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6'>
       <div className='flex flex-shrink-0 items-center'>
-        <a href="/" aria-label='Home'>
+        <a href="/" aria-label='Portfolio'
+         className="bg-blue-600 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
+         >
           <h1>Portfolio</h1>
         </a>
       </div>
