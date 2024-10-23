@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import React from 'react';
+//import React from 'react';
 import React, { useState } from 'react'; // Import useState
 
 const Navbar = () => {
