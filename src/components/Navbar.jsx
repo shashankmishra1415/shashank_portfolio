@@ -6,11 +6,28 @@ const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6'>
       <div className='flex flex-shrink-0 items-center'>
-        <a href="/" aria-label='Portfolio'
+        {/* <a href="/" aria-label='Portfolio'
          className="bg-blue-600 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
          >
           <h1>Portfolio</h1>
-        </a>
+        </a> */}
+          <div className="relative group">
+          <span
+            aria-label='Portfolio'
+            className="bg-blue-600 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110 cursor-default"
+          >
+            <h1 className="text-lg">Portfolio</h1>
+          </span>
+          <span className="absolute bottom-14 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-blue-600 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+            Portfolio
+            <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-blue-600"></span>
+          </span>
+          {/* Objective Tooltip */}
+          <span className="absolute bottom-8 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-blue-600 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+            A glimpse of my work and projects.
+            <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-blue-600"></span>
+          </span>
+        </div>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-xl"> 
         {/* LinkedIn Icon */}
