@@ -37,7 +37,7 @@ const Technologies = () => {
         style={{ color: "#FFD700" }}
       //   className="my-20 text-center text-4xl"
       // >
-       className="bg-white border-2 border-yellow-500 text-yellow-500 my-20 text-center text-4xl p-4 rounded"
+      className="bg-white border-2 border-yellow-500 rounded-full p-4 text-sm text-stone-800 mb-10 flex items-center gap-2"
       >
         Technologies
       </motion.h2>
