@@ -44,7 +44,7 @@ const Navbar = () => {
           <h1>Portfolio</h1>
         </a>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-8 flex items-center justify-center gap-4 text-xl"> {/* Reduced icon size by using text-xl */}
         {/* LinkedIn Icon */}
         <div className="relative group">
           <a
@@ -52,7 +52,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="bg-blue-600 rounded-full p-3 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
+            className="bg-blue-600 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
           >
             <FaLinkedin />
           </a>
@@ -69,7 +69,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="bg-gray-800 rounded-full p-3 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
+            className="bg-gray-800 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
           >
             <FaGithub />
           </a>
@@ -86,7 +86,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Leetcode"
-            className="bg-yellow-500 rounded-full p-3 flex items-center justify-center text-black transition-transform duration-300 hover:scale-110"
+            className="bg-yellow-500 rounded-full p-2 flex items-center justify-center text-black transition-transform duration-300 hover:scale-110"
           >
             <SiLeetcode />
           </a>
@@ -101,3 +101,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
