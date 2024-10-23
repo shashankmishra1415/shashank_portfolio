@@ -16,7 +16,7 @@ const Navbar = () => {
         <a
         href="/"
         aria-label='Portfolio'
-        className="bg-blue-600 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
+        className="bg-teal-600 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
         onMouseEnter={() => setHovered(true)} // Set hovered to true on mouse enter
         onMouseLeave={() => setHovered(false)} // Set hovered to false on mouse leave
       >
