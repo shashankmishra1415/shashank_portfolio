@@ -51,13 +51,13 @@ const Navbar = () => {
             href="https://leetcode.com/u/shashankmishra1415/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Leetcode"
+            aria-label="LeetCode"
             className="bg-yellow-500 rounded-full p-2 flex items-center justify-center text-black transition-transform duration-300 hover:scale-110"
           >
             <SiLeetcode />
           </a>
           <span className="absolute bottom-14 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-yellow-500 text-black text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-            Leetcode
+            LeetCode
             <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-yellow-500"></span>
           </span>
         </div>
