@@ -6,7 +6,7 @@ import PWCer from "../assets/projects/PWCer.webp";
 import PentaCer from "../assets/projects/PentaCer.webp";
 import TequedCer from "../assets/projects/TequedCer.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable Web applications. With 1.8 years of hands-on experience, I have honed my skills in front-end technologies like Angular, as well as back-end technologies like Dotnet. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated full stack developer with a strong passion for building reliable and scalable web applications. With 1.8 years of practical experience, I specialize in front-end technologies like Angular and back-end technologies such as .NET. My aim is to use my skills to develop innovative solutions that help businesses grow and provide outstanding experiences for users.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.`;
 

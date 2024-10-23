@@ -17,10 +17,10 @@ const Navbar = () => {
         href="/"
         aria-label='Portfolio'
         className="bg-teal-600 rounded-full p-2 flex items-center justify-center text-white transition-transform duration-300 hover:scale-110"
-        onMouseEnter={() => setHovered(true)} // Set hovered to true on mouse enter
-        onMouseLeave={() => setHovered(false)} // Set hovered to false on mouse leave
+        onMouseEnter={() => setHovered(true)} 
+        onMouseLeave={() => setHovered(false)} 
       >
-        <h1>{hovered ? 'Shashank Mishra' : 'Portfolio'}</h1> {/* Change text based on hover state */}
+        <h1>{hovered ? 'Shashank Mishra' : 'Portfolio'}</h1>
       </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-xl"> 

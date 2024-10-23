@@ -49,6 +49,7 @@ const Hero = () => {
                  </motion.span>
                 <motion.p
                 variants={childVariants}
+                style={{ fontFamily: 'Roboto, sans-serif' }}
                  className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-justify">
                     {HERO_CONTENT}
                 </motion.p>
