@@ -1,8 +1,10 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import React from 'react';
+import React, { useState } from 'react'; // Import useState
 
 const Navbar = () => {
+  const [hovered, setHovered] = useState(false);
   return (
     <nav className='flex items-center justify-between py-6'>
       <div className='flex flex-shrink-0 items-center'>
