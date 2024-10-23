@@ -35,7 +35,9 @@ const Technologies = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
         style={{ color: "#FFD700" }}
-        className="my-20 text-center text-4xl"
+      //   className="my-20 text-center text-4xl"
+      // >
+       className="bg-white border-2 border-yellow-500 text-yellow-500 my-20 text-center text-4xl p-4 rounded"
       >
         Technologies
       </motion.h2>
