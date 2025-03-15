@@ -13,6 +13,7 @@ import { SiCsharp } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaGitSquare } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -52,6 +53,15 @@ const Technologies = () => {
           className="p-4"
         >
           <FaAngular className="text-7xl" style={{ color: "#DD0031" }} />
+        </motion.div>
+
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(2.5)}
+          className="p-4"
+        >
+          <FaReact className="text-7xl" style={{ color: "#DD0031" }} />
         </motion.div>
 
         <motion.div
