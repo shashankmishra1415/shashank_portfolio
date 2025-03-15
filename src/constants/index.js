@@ -21,10 +21,10 @@ export const EXPERIENCES = [
   },
   {
     year: "Feb 2023 - May 2023",
-    role: "Associate Software Development Trainee",
+    role: "Associate Software Developer Trainee",
     company: "Mind IT Systems",
     description: `Gained hands-on experience in developing and maintaining web applications using Angular and .NET Core. Assisted in writing and debugging RESTful APIs and integrated MySQL databases. Participated in code reviews and collaborated with senior developers to improve application performance and maintainability.`,
-    technologies: ["Angular", ".Net Core", "JavaScript", "MySQL", "C#"],
+    technologies: ["C#",".Net Core","MySQL","JavaScript","Angular","TypeScript"],
     certLink: ""
   },
   {
