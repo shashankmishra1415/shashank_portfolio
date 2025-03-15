@@ -6,7 +6,7 @@ import PWCer from "../assets/projects/PWCer.webp";
 import PentaCer from "../assets/projects/PentaCer.webp";
 import TequedCer from "../assets/projects/TequedCer.webp";
 
-export const HERO_CONTENT = `I am a dedicated full stack developer with a strong passion for building reliable and scalable web applications. With 1.8 years of practical experience, I specialize in front-end technologies like Angular and back-end technologies such as .NET. My aim is to use my skills to develop innovative solutions that help businesses grow and provide outstanding experiences for users.`;
+export const HERO_CONTENT = `I am a dedicated full stack developer with a strong passion for building reliable and scalable web applications. With 2+ years of practical experience, I specialize in front-end technologies like Angular and back-end technologies such as .NET. My aim is to use my skills to develop innovative solutions that help businesses grow and provide outstanding experiences for users.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.`;
 
@@ -31,22 +31,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Interne",
+    image: project4,
+    description: "Interne is a comprehensive web application designed to streamline and manage HR operations efficiently. It provides robust features for handling employee attendance regularization, leave management, and work schedule organization.",
+    technologies: ["Angular", "TypeScript", ".Net Core"],
+  },
+  {
+    title: "Human Resource Management System (HRX)",
+    image: project3,
+    description: "HRX is a web application used to maintaining the HR Operations like attendance regularization, leaves and work schedule management of an employee.",
+    technologies: [".Net Core", "Angular", "TypeScript"],
+  },
+  {
     title: "Sujata Product Strategy",
-    image: project1,
+    image: project2,
     description: "Sujata is a web application that manages the products such as home appliances at multiple levels. The platform will centralize product cost, labour cost management and generates balance sheet for the user.",
     technologies: ["Angular", "TypeScript"],
   },
   {
     title: "Inventory Management System",
-    image: project2,
+    image: project1,
     description: "Inventory Management System is an application which manages Inventory of product, creates barcode for each product, generates excel report of sales.",
     technologies: ["REST APIs", ".Net Core", "MySql"],
-  },
-  {
-    title: "Human Resource Management System (HRX)",
-    image: project4,
-    description: "HRX is a web application used to maintaining the HR Operations like attendance regularization, leaves and work schedule management of an employee.",
-    technologies: [".Net Core", "Angular", "TypeScript"],
   },
 ];
 

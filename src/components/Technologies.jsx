@@ -61,7 +61,7 @@ const Technologies = () => {
           variants={iconVariants(2.5)}
           className="p-4"
         >
-          <FaReact className="text-7xl" style={{ color: "#DD0031" }} />
+          <FaReact className="text-7xl" style={{ color: "#61DAFB" }} />
         </motion.div>
 
         <motion.div
