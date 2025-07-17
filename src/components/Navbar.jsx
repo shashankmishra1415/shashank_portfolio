@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
 
         {/* Leetcode Icon */}
-        <div className="relative group">
+        {/* <div className="relative group">
           <a
             href="https://leetcode.com/u/shashankmishra1415/"
             target="_blank"
@@ -73,7 +73,7 @@ const Navbar = () => {
             LeetCode
             <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-yellow-500"></span>
           </span>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
