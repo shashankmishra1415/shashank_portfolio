@@ -13,18 +13,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "May 2023 - Current",
-    role: "Associate Software Developer",
+    role: "Software Engineer",
     company: "Mind IT Systems",
     description: `Developed and Deployed high-performance, cross-platform, scalable web apps for clients with Dotnet and Angular. Implemented RESTful APIs with Dotnet and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Angular",".Net Core","JavaScript","MySQL","C#"],
+    technologies: ["Angular","Typrscript", ".Net Core","JavaScript","MySQL","C#"],
     certLink:""
   },
   {
-    year: "Feb 2023 - May 2023",
-    role: "Associate Software Developer Trainee",
+    year: "Feb 2023 - April 2025",
+    role: "Associate Software Engineer",
     company: "Mind IT Systems",
     description: `Gained hands-on experience in developing and maintaining web applications using Angular and .NET Core. Assisted in writing and debugging RESTful APIs and integrated MySQL databases. Participated in code reviews and collaborated with senior developers to improve application performance and maintainability.`,
-    technologies: ["C#",".Net Core","MySQL","JavaScript","Angular","TypeScript"],
+    technologies: ["C#",".Net Core","MySQL","JavaScript","Angular","TypeScript","HTML5","CSS3","Bootstrap5"],
     certLink: ""
   },
   {
